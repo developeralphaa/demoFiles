@@ -1,0 +1,78 @@
+:root {
+    --primary-text-color: #273238;
+    --secondary-text-color: #556e7a;
+    --error-text-color: #d32f2f;
+    --divider-color: #cfd8dc;
+    --background-color: #fafafa;
+    --button-color: #3883ff;
+    --gradient-primary-color: #3883ff;
+    --gradient-secondary-color: #1ed5ff;
+    --white-color: #fff;
+    --outline-color: #cfd8dc;
+    --desaturated-dark-blue: #617d8a;
+    --light-grayish-blue: #eceff1;
+    --list-hover-color: #fafafa;
+    --theme-color: #3883ff;
+    --info-background-color: #ebf3ff;
+    --theme-light-color: #b3dbff;
+    --sidebar-dark-color: #001225;
+    --sidebar-bg-color: #061e33;
+    --sidebar-bg-active-color: #102a40;
+    --icon-font: 'Material Icons';
+    --border-color: #e2e8ea;
+    --success-background-color: #E6F7E5;
+    --success-color: #1EC759;
+    --error-color: #D32F2F;
+  }
+  
+  @font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Graphik'), local('Graphik-Regular')
+      url('../fonts/Graphik-Regular.ttf') format('truetype');
+  }
+
+/* use of variable */
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--background-color);
+    height: 100%;
+  }
+  
+
+  .width-50{
+    width: 50%;
+  }
+  
+  .width-40{
+    width: 40%;
+  }
+  .width-20{
+    width: 20%;
+  }
+
+  .mg-left-20{
+    margin-left: 20px;
+  }
+  
+  .mg-left-10{
+    margin-left: 10px;
+  }
+  .mg-left-35{
+    margin-left: 35px;
+  }    
+
+.display-flex{
+    display: flex;
+  }
+  
+  .display-block{
+    display: block;
+  }
+  
+  .float-right{
+    float: right;
+  }

@@ -1,0 +1,152 @@
+.Text {
+    padding: 0.75rem;
+    border-radius: 1rem;
+    box-shadow: 0 12px 48px #6f819542;
+    width: 100%;
+    border: 1px solid #e7e9f5;
+}
+
+.howdy {
+    width: 100%;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+.parentTextbox {
+    display: flex;
+}
+
+#listParent {
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+}
+
+#listParent li {
+    background-color: white;
+    opacity: 1;
+}
+
+#listParent li:focus {
+    background-color: #3dc292;
+    color: white;
+    outline: none
+}
+
+#listParent li:hover {
+    background-color: #3dc292;
+    color: white;
+}
+
+.mic-container {
+    align-self: center;
+}
+
+.selected-item {
+    border-bottom: 2px solid #f2cb98;
+}
+
+.selected-item:hover {
+    background-color: #f2e1982a;
+    cursor: pointer;
+}
+
+// filters & sort
+.action-parent {
+    background-color: #efefef;
+    max-width: 90%;
+    padding: 0.5rem 1rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+    // display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border: 1px solid rgba(102, 102, 102, 0.1);
+}
+
+
+/* filter button */
+
+.action-parent .filter-parent .filter-button {
+    display: inline;
+    border: 1px dashed;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 0.4rem;
+}
+
+.action-parent .filter-parent {
+    margin: auto 0.25rem;
+    padding: 0.25rem 0;
+}
+
+.action-parent .sort-parent .sort-button {
+    margin: 0.4rem 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #444;
+}
+
+.action-parent .sort-parent {
+    align-self: center;
+}
+
+.filter-categories {
+    padding: 0.8rem 0.8rem;
+    background-color: #efefef;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+.filter-subcategories {
+    padding: 0.8rem 0.8rem;
+    -webkit-user-select: none;
+    user-select: none;
+    background: white;
+}
+
+.active {
+    background: #d3d0d0;
+}
+
+.selected-suggestion{
+    border-radius: 0.3rem;
+    border: 1px solid;
+    padding: 0.2rem 0.4rem;
+    // display: inline-flex;
+    margin: 0.25rem 0.4rem;
+    background-color: #fff;
+    cursor: pointer;
+}
+.filter-list{
+    width: 100%;
+    display: flex;
+}
+// sorting popup
+.sorting-list-item{
+    background: #fff;
+    border-radius: 6px;
+    margin: 6px auto;
+    transition: box-shadow 0.5s, transform 0.5s;
+    display: flex;
+    flex-direction: row;
+    line-height: 50px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.sorting-category-parent{
+    padding: 10px;
+}
+
+.sort-button{
+    align-self: center;
+
+}
+
+.sort-category-name{
+    width: 90%;
+}

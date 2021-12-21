@@ -1,0 +1,10 @@
+.gradient-card {
+  min-height: 150px;
+  border-radius: 4px 4px 0 0;
+  color: var(--white-color);
+  background: linear-gradient(
+    89.79deg,
+    var(--gradient-primary-color) 0.16%,
+    var(--gradient-secondary-color) 99.87%
+  );
+}
